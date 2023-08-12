@@ -1,0 +1,12 @@
+level : info:Aug-05-2023 14:52:11 : 	Server started and is running on http://localhost:9000
+level : info:Aug-05-2023 14:52:11 : 	mongoose is connected
+level : info:Aug-05-2023 17:53:09 : 	mongoose is connected
+level : info:Aug-05-2023 19:00:24 : 	Server started and is running on http://localhost:9000
+level : error:Aug-05-2023 19:00:34 : 	mongoose Connection Error
+level : info:Aug-05-2023 19:03:28 : 	Server started and is running on http://localhost:9000
+level : error:Aug-05-2023 19:03:57 : 	mongoose Connection Error
+level : info:Aug-05-2023 19:04:00 : 	Server started and is running on http://localhost:9000
+level : info:Aug-05-2023 19:04:09 : 	Server started and is running on http://localhost:9000
+level : info:Aug-05-2023 19:04:19 : 	Server started and is running on http://localhost:9000
+level : info:Aug-05-2023 19:06:16 : 	Server started and is running on http://localhost:9000
+level : error:Aug-05-2023 19:06:41 : 	mongoose Connection Error
