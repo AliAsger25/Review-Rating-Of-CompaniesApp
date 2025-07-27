@@ -1,5 +1,6 @@
 require("dotenv").config();
 let Express = require('express')
+const cors = require('cors')
 require('./config/modelConfig')
 const logger = require("./utils/systemLogs")
 let commonRouter = require('./routes/mainRoutes')
@@ -12,6 +13,7 @@ const HOST = "localhost"
 let app = Express();
 
 app.use(Express.json())
+app.use(cors())
 app.use('/', commonRouter)
 
 

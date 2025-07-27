@@ -42,24 +42,25 @@ const companyLogger = createLogger({
                 format.printf(error => `level : ${error.level}:${[error.timestamp]} : ${error.message}`),
             ),
         }),
-        new transports.MongoDB({
-            level: "info",
-            db: process.env.URL,
-            options: {
-                useUnifiedTopology: true
-            },
-            collection: 'logData',
-            format: format.combine(format.timestamp(), format.json())
-        }),
-        new transports.MongoDB({
-            level: "error",
-            db: process.env.URL,
-            options: {
-                useUnifiedTopology: true
-            },
-            collection: 'logData',
-            format: format.combine(format.timestamp(), format.json())
-        })
+        // MongoDB logging temporarily disabled
+        // new transports.MongoDB({
+        //     level: "info",
+        //     db: process.env.MONGODB_URI || 'mongodb://localhost:27017/review_rating',
+        //     options: {
+        //         useUnifiedTopology: true
+        //     },
+        //     collection: 'logData',
+        //     format: format.combine(format.timestamp(), format.json())
+        // }),
+        // new transports.MongoDB({
+        //     level: "error",
+        //     db: process.env.MONGODB_URI || 'mongodb://localhost:27017/review_rating',
+        //     options: {
+        //         useUnifiedTopology: true
+        //     },
+        //     collection: 'logData',
+        //     format: format.combine(format.timestamp(), format.json())
+        // })
     ],
 })
 
