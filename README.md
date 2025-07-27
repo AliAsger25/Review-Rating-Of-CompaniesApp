@@ -188,10 +188,4 @@ The application uses a professional blue-based color palette:
 4. Test thoroughly
 5. Submit a pull request
 
-## License
 
-This project is licensed under the ISC License.
-
-## Contact
-
-For any questions or support, please contact the development team.
